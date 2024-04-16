@@ -11,6 +11,7 @@ function SearchBar({onSubmit}){
 
     const handlechange=(event)=>{
         console.log(event.target.value)
+        setTerm(event.target.value)
     }
 
     return(
