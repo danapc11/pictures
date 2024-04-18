@@ -14,6 +14,10 @@ function SearchBar({onSubmit}){
         setTerm(event.target.value)
     }
 
+    const handleClick=()=>{
+        onSubmit(term)
+    }
+
     return(
         <div>
             <h1>Search Bar:</h1>
